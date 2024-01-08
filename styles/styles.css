@@ -1,0 +1,32 @@
+/* common styles */
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    width: 1320px;
+    height: 600px;
+    background: url('/resources/Banner\ Image.png');
+    text-align: center;
+    margin: auto;
+}
+.banner-text{
+    color: #FFF;
+    text-align: center;
+    
+    font-weight: 900;
+    line-height: 95px;
+    padding: 70px;
+}
+.h1{
+    margin: 10px;
+    border-color: black;
+    font-size: 60px;   
+    padding: 50px;
+}
+.h2{
+    margin: 10px;
+    border-color: black 50%;
+    font-size: 80px;
+    padding: 0 100px;
+}
