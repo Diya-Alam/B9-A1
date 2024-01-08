@@ -62,3 +62,61 @@ body{
     word-wrap: break-word;
     
 }
+
+/* welcome party */
+.welcome{
+   display: inline-block;
+   padding: 600px;
+   text-align: left;
+   position: absolute;
+   
+}
+
+.vectorr{
+    width: 1420px;
+    height: 800px;
+    background: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    margin: 0 400px 0 200px;
+  
+
+}
+.vic-title{
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    word-wrap: break-word;
+    padding: 100px 100px 0 80px ;
+    
+}
+.vic-text{
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    padding: 0 10px 0 70px;
+    
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-left: 80px;
+}
+
+.sec-2{
+   padding: 90px;
+   margin-right: 50px;
+}
