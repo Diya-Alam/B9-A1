@@ -4,6 +4,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     
 }
+main{
+    padding-bottom: 30px;
+}
 
 /* header */
 .banner{
@@ -84,7 +87,7 @@ body{
     text-align: left;
     margin: auto;
     display: flex;
-    margin: 0 400px 0 200px;
+    margin: 0 400px 0 100px;
   
 
 }
@@ -177,4 +180,45 @@ body{
     padding-left: 30px;
     margin-right: 0;
     color: gray;
+}
+
+/* footer */
+
+.footer{
+   padding:0;
+   height: auto;
+    width: auto;
+    
+}
+
+.foot-add{
+    padding: 40px;
+    display: flex;
+    gap: 80%;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+    padding-bottom: 80px;
+}
+
+.icons{
+    text-align: center;
+    
+    
+    
+}
+
+.foot-add2{
+    padding: 40px;
+    display: flex;
+    gap: 80%;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+    padding-top: 80px;
+
 }
