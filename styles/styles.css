@@ -113,10 +113,24 @@ body{
     font-size: 20px;
     font-weight: 700;
     word-wrap: break-word;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .sec-2{
    padding: 90px;
    margin-right: 50px;
+}
+
+/* place */
+
+.address{
+    display: inline-block;
+    background-color: pink;
+    width: 1320px;
+    height: 500px;
+    text-align: center;
+    margin: 1400px 400px 400px 800px;
+}
+.text1{
+    margin-top: 100px;
 }
