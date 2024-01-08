@@ -147,5 +147,34 @@ body{
 }
 
 .port-img{
-    margin: 0 100px 400px 800px ;   
+    margin: 0 100px 100px 800px ;   
+}
+
+/* subscribe */
+.subscribe{
+    display: inline-block;
+    background-color:lavenderblush;
+    width: 1320px;
+    height: 800px;
+    text-align: center;
+    margin: 0 100px 40px 800px ;   
+}
+.sub-img{
+    margin-top: 100px;
+}
+.para{
+    font-size: 24px;
+    color: dimgray;
+    padding: 0 50px 40px;
+}
+
+.sub-box{
+    background-color: white;
+    border-radius: 30px;
+    width: 648px;
+    height: 72px;
+    text-align: left;
+    padding-left: 30px;
+    margin-right: 0;
+    color: gray;
 }
