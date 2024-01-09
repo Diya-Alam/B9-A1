@@ -13,6 +13,7 @@ main{
     width: 1320px;
     height: 600px;
     background: url('/resources/Banner\ Image.png');
+    
     text-align: center;
     margin: auto;
 }
@@ -72,8 +73,9 @@ main{
 
 /* welcome party */
 .welcome{
+    position: absolute;
    display: inline-block;
-   padding: 600px;
+   padding: 600px 0 40px;
    text-align: left;
    position: absolute;
    
@@ -87,7 +89,7 @@ main{
     text-align: left;
     margin: auto;
     display: flex;
-    margin: 0 400px 0 200px;
+    margin: 0 40px;
   
 
 }
@@ -136,21 +138,31 @@ main{
     width: 1320px;
     height: 500px;
     text-align: center;
-    margin: 1400px 400px 80px 800px;
+    margin: 1400px 15px 0 40px;
 }
 .text1{
     margin-top: 100px;
 }
 
 /* portfolio */
-
+.portfolio{
+   margin:  0 40px;
+}
 .port-text{
-    margin: 0 100px 40px 800px;
-    padding-right: 50%;
+    
+    padding-right: 20%;
 }
 
 .port-img{
-    margin: 0 100px 100px 800px ;   
+       
+    gap: 5px;
+}
+
+.img-s1 {
+    display: flex;
+}
+.img-s2{
+    display: flex;
 }
 
 /* subscribe */
@@ -160,8 +172,9 @@ main{
     width: 1320px;
     height: 800px;
     text-align: center;
-    margin: 0 100px 40px 800px ;   
+    margin: 40px;
 }
+
 .sub-img{
     margin-top: 100px;
 }
@@ -187,38 +200,40 @@ main{
 .footer{
    padding:0;
    height: auto;
-    width: auto;
+   width: auto;
     
 }
-
+.footer-text{
+    display: flex;
+}
 .foot-add{
     padding: 40px;
     display: flex;
-    gap: 80%;
+    gap: 900px;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 40px;
-    word-wrap: break-word;
-    padding-bottom: 80px;
+    line-height: 50px;    
+    padding-bottom: 20px;
+}
+
+.div-img{
+  
 }
 
 .icons{
     text-align: center;
-    
-    
-    
 }
 
 .foot-add2{
-    padding: 40px;
     display: flex;
-    gap: 80%;
+    gap: 900px;
     color: white;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
     word-wrap: break-word;
     padding-top: 80px;
+    padding: 40px;
 
 }
